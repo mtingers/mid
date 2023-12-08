@@ -1,5 +1,5 @@
 # mid
-A head and tail CLI counterpart -- `mid` prints the middle of a file (line based).
+A `head` and `tail` CLI tool counterpart -- `mid` prints the middle of a file (line based).
 
 
 ./mid [-o] [-n number-of-lines] [-] [file1] [file2...]
