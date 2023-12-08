@@ -1,10 +1,12 @@
 # mid
 A `head` and `tail` CLI tool counterpart -- `mid` prints the middle of a file (line based).
 
-
-./mid [-o] [-n number-of-lines] [-] [file1] [file2...]
+# Usage
+```bash
+mid [-o] [-n number-of-lines] [-] [file1] [file2...]
     -o      print offset (e.g. '@@ line,offset @@')
     -n N    print N lines surrounding midpoint
+```
 
 # Examples
 ```bash
