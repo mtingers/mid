@@ -6,6 +6,7 @@ A `head` and `tail` CLI tool counterpart -- `mid` prints the middle of a file (l
 mid [-o] [-n number-of-lines] [-] [file1] [file2...]
     -o      print offset (e.g. '@@ line,offset @@')
     -n N    print N lines surrounding midpoint
+    -       read from stdin 
 ```
 
 # Examples

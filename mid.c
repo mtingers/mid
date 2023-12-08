@@ -7,6 +7,7 @@ void usage(const char *name) {
     printf("%s [-o] [-n number-of-lines] [-] [file1] [file2...]\n", name);
     printf("    -o      print offset (e.g. '@@ line,offset @@')\n");
     printf("    -n N    print N lines surrounding midpoint\n");
+    printf("    -       read from stdin\n");
     printf("\nexamples:\n");
     printf("    %s file1.txt\n", name);
     printf("    %s -n 20 file1.txt file2.txt\n", name);
